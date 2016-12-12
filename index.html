@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"><!--用IE的最高版本渲染-->
+		<meta name="renderer" content="webkit"><!--针对双核浏览器,用极速模式渲染-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/BSM_style.css"/>
+	</head>
+	<body>
+		<header class="container-fluid navbar-fixed-top">
+			<div class="row">
+				<div class="logo col-lg-2">
+					<a href="">
+						<img src="img/logo.png"/>
+						<span>SPACELAB</span>
+					</a>
+				</div>
+				<div class="about col-lg-10">
+					<a href="#!" id="menu" class="pull-left glyphicon glyphicon-list"></a>
+					<ul class="pull-right">
+						<li class="one pull-left"><a href="" class="glyphicon glyphicon-envelope"></a><span class="badge">42</span></li>
+						<li class="two pull-left"><img src="img/avatar3.gif"/></li>
+						<li class="dropdown pull-left">
+							<a class="dropdown-toggle" data-toggle="dropdown"  id="dropdownMenu1">
+							    Mike Adams <span class="glyphicon glyphicon-chevron-down"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							    <li><a href="#"><span class="glyphicon glyphicon-file"></span> 文件夹</a></li>
+							    <li><a href="#"><span class="glyphicon glyphicon-calendar"></span> 日历</a></li>
+							    <li><a href="#"><span class="glyphicon glyphicon-comment"></span> 消息盒子<span class="badge">12</span></a></li>
+							    <li><a href="load.html"><span class="glyphicon glyphicon-off"></span> 退出登录</a></li>
+							</ul>
+						</li>
+						<li class="four pull-left"><a href="" class="glyphicon glyphicon-comment"></a><span class="badge">12</span></li>
+	                </ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</header>
+		<div class="content container-fluid">
+			<div class="row">
+				<aside class="col-lg-2 navbar-inverse">
+					<ul class="nav nav-tabs panel-group" id="accordion" aria-multiselectable="true">
+						<li class="panel panel-default">
+					    	<div class="panel-heading" role="tab" id="heading1">
+						      	<div class="panel-title">
+							        <a data-toggle="collapse" data-parent="#accordion" href=" " >
+							          	<span class="pull-left glyphicon glyphicon-th-large"></span>
+										<span class="pull-left">Dashboard</span>
+										<div class="clearfix"></div>
+							        </a>
+						      	</div>
+					    	</div>
+						</li>
+						<li class="panel panel-default">
+					    	<div class="panel-heading" role="tab" id="heading2">
+						      	<div class="panel-title">
+							        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true"  aria-controls="collapse2">
+							          	<span class="pull-left glyphicon glyphicon-asterisk"></span>
+										<span class="pull-left">UI Elements</span>
+										<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+										<div class="clearfix"></div>
+							        </a>
+						      	</div>
+					    	</div>
+					    	<div id="collapse2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2">
+						    <div class="panel-body">
+						    	<ul>
+						    		<li><a href="ui-alerts-notifications.html">Alerts &amp; Notifications</a></li>
+		                            <li><a href="ui-panels.html">Panels</a></li>
+		                            <li><a href="ui-buttons.html">Buttons</a></li>
+		                            <li><a href="ui-slider-progress.html">Sliders &amp; Progress</a></li>
+		                            <li><a href="ui-modals-popups.html">Modals &amp; Popups</a></li>
+		                            <li><a href="ui-icons.html">Icons</a></li>
+		                            <li><a href="ui-grid.html">Grid</a></li>
+		                            <li><a href="ui-tabs-accordions.html">Tabs &amp; Accordions</a></li>
+		                            <li><a href="ui-nestable-list.html">Nestable Lists</a></li>
+						    	</ul>
+						    </div>
+						</li>
+						<li class="panel panel-default">
+					    	<div class="panel-heading" role="tab" id="heading3">
+						      	<div class="panel-title">
+							        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false"  aria-controls="collapse3">
+							          	<span class="pull-left glyphicon glyphicon-calendar"></span>
+										<span class="pull-left">Tables</span>
+										<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+										<div class="clearfix"></div>
+							        </a>
+						      	</div>
+					    	</div>
+					    	<div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+						    <div class="panel-body">
+						    	<ul>
+						    		<li><a href="tables-basic.html">Basic Tables</a></li>
+		                            <li><a href="tables-data.html">Data Tables</a></li>
+						    	</ul>
+						    </div>
+						</li>
+						<li class="panel panel-default">
+					    	<div class="panel-heading" role="tab" id="heading4">
+						      	<div class="panel-title">
+							        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+							          	<span class="pull-left glyphicon glyphicon-list-alt"></span>
+										<span class="pull-left">Forms</span>
+										<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+										<div class="clearfix"></div>
+							        </a>
+						      	</div>
+					    	</div>
+					    	<div id="collapse4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading4">
+						    <div class="panel-body">
+						    	<ul>
+						    		<li><a href="forms-components.html">Components</a></li>
+		                            <li><a href="forms-validation.html">Validation</a></li>
+		                            <li><a href="forms-mask.html">Mask</a></li>
+		                            <li><a href="forms-wizard.html">Wizard</a></li>
+		                            <li><a href="forms-multiple-file.html">Multiple File Upload</a></li>
+		                            <li><a href="forms-wysiwyg.html">WYSIWYG Editor</a></li>
+						    	</ul>
+						    </div>
+						</li>
+						<li class="panel panel-default">
+					    	<div class="panel-heading" role="tab" id="heading5">
+						      	<div class="panel-title">
+							        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5"  aria-expanded="false" aria-controls="collapse5">
+							          	<span class="pull-left glyphicon glyphicon-envelope"></span>
+										<span class="pull-left">Mail</span>
+										<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+										<div class="clearfix"></div>
+							        </a>
+						      	</div>
+					    	</div>
+					    	<div id="collapse5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading5">
+						    <div class="panel-body">
+						    	<ul>
+						    		<li><a href="mail-inbox.html">Inbox</a></li>
+		                            <li><a href="mail-compose.html">Compose Mail</a></li>
+						    	</ul>
+						    </div>
+						</li>
+						<li class="panel panel-default">
+					    	<div class="panel-heading" role="tab" id="heading6">
+						      	<div class="panel-title">
+							        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"  aria-expanded="false" aria-controls="collapse6">
+							          	<span class="pull-left glyphicon glyphicon-signal"></span>
+										<span class="pull-left">Chart</span>
+										<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+										<div class="clearfix"></div>
+							        </a>
+						      	</div>
+					    	</div>
+					    	<div id="collapse6" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading6">
+						    <div class="panel-body">
+						    	<ul>
+						    		<li><a href="charts-chartjs.html">Chartjs</a></li>
+		                            <li><a href="charts-morris.html">Morris</a></li>
+		                            <li><a href="charts-c3.html">C3 Charts</a></li>
+						    	</ul>
+						    </div>
+						</li>
+						<li class="panel panel-default">
+					    	<div class="panel-heading" role="tab" id="heading7">
+						      	<div class="panel-title">
+							        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7"  aria-expanded="false" aria-controls="collapse7">
+							          	<span class="pull-left glyphicon glyphicon-map-marker"></span>
+										<span class="pull-left">Maps</span>
+										<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+										<div class="clearfix"></div>
+							        </a>
+						      	</div>
+					    	</div>
+					    	<div id="collapse7" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading7">
+						    <div class="panel-body">
+						    	<ul>
+						    		<li><a href="map-google.html">Google Map</a></li>
+		                            <li><a href="map-vector.html">Vector Map</a></li>
+						    	</ul>
+						    </div>
+						</li>
+						<li class="panel panel-default">
+					    	<div class="panel-heading" role="tab" id="heading8">
+						      	<div class="panel-title">
+							        <a data-toggle="collapse" data-parent="#accordion" href="#collapse8"  aria-expanded="false" aria-controls="collapse8">
+							          	<span class="pull-left glyphicon glyphicon-text-height"></span>
+										<span class="pull-left">Typography</span>
+										<div class="clearfix"></div>
+							        </a>
+						      	</div>
+					    	</div>
+						</li>
+						<li class="panel panel-default">
+					    	<div class="panel-heading" role="tab" id="heading9">
+						      	<div class="panel-title">
+							        <a data-toggle="collapse" data-parent="#accordion" href="#collapse9"  aria-expanded="false" aria-controls="collapse9">
+							          	<span class="pull-left glyphicon glyphicon-book"></span>
+										<span class="pull-left">Pages</span>
+										<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+										<div class="clearfix"></div>
+							        </a>
+						      	</div>
+					    	</div>
+					    	<div id="collapse9" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading9">
+						    <div class="panel-body">
+						    	<ul>
+						    		<li><a href="pages-blank.html">Blank Page</a></li>
+		                            <li><a href="pages-login.html">Login</a></li>
+		                            <li><a href="pages-sign-up.html">Sign Up</a></li>
+		                            <li><a href="pages-calendar.html">Calendar</a></li>
+		                            <li><a href="pages-timeline.html">Timeline</a></li>
+		                            <li><a href="pages-404.html">404</a></li>
+		                            <li><a href="pages-500.html">500</a></li>
+						    	</ul>
+						    </div>
+						</li>
+					</ul>
+				</aside>
+				<div class="col-lg-10 col-lg-offset-2 content-index">
+					<div class="content1">
+						<div class="row">
+		                    <div class="col-lg-3 card-wrapper">
+		                        <div class="card-content" style="background-color: #E84C3D;">
+		                            <div class="card-txt col-lg-6">
+		                                <h1 class="" data-from="0" data-to="180" data-speed="2500">0</h1>
+		                                <p>New Users</p>
+		                            </div>
+		                            <div class="card-icon col-lg-6">
+		                            	<span class="glyphicon glyphicon-user" style="color: #DD483A;"></span>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="col-lg-3 card-wrapper">
+		                        <div class="card-content" style="background-color: #1ABC9C;">
+		                            <div class="card-txt col-lg-6">
+		                                <h1 class="" data-from="0" data-to="180" data-speed="2500">30</h1>
+		                                <p>New Comments</p>
+		                            </div>
+		                            <div class="card-icon col-lg-6">
+		                            	<span class="glyphicon glyphicon-comment" style="color: #18B394;"></span>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="col-lg-3 card-wrapper">
+		                        <div class="card-content" style="background-color: #3598DB;">
+		                            <div class="card-txt col-lg-6">
+		                                <h1 class="" data-from="0" data-to="180" data-speed="2500">100</h1>
+		                                <p>New Messages</p>
+		                            </div>
+		                            <div class="card-icon col-lg-6">
+		                            	<span class="glyphicon glyphicon-envelope" style="color: #3290D0;"></span>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="col-lg-3 card-wrapper">
+		                        <div class="card-content" style="background-color: #9A59B5;">
+		                            <div class="card-txt col-lg-6">
+		                                <h1 class="" data-from="0" data-to="180" data-speed="2500">50</h1>
+		                                <p>New Sales</p>
+		                            </div>
+		                            <div class="card-icon col-lg-6">
+		                            	<span class="glyphicon glyphicon-signal" style="color: #9254AC;"></span>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="clearfix"></div>
+		                </div>
+					</div>
+					<div class="content2">
+						<div class="row">
+		                    <div class="col-lg-6">
+		                        <div class="panel panel-default">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title pull-left">SALES FOR 2014</h3>
+		                                <div class="actions pull-right">
+		                                    <a class="glyphicon glyphicon-chevron-down"></a>
+		                                    <a class="glyphicon glyphicon-remove"></a>
+		                                </div>
+		                                <div class="clearfix"></div>
+		                            </div>
+		                            <div class="panel-body">
+		                                <div id="sales-chart" style="height: 250px;"></div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="col-lg-6">
+		                        <div class="panel panel-default">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title pull-left">OFFICE LOCATIONS</h3>
+		                                <div class="actions pull-right">
+		                                    <a class="glyphicon glyphicon-chevron-down"></a>
+		                                    <a class="glyphicon glyphicon-remove"></a>
+		                                </div>
+		                                <div class="clearfix"></div>
+		                            </div>
+		                            <div class="panel-body">
+		                                <div class="map" id="map" style="height: 250px;"></div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="clearfix"></div>
+                		</div>
+					</div>
+					<div class="content3">
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="panel panel-default">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title pull-left">To do list</h3>
+		                                <div class="actions pull-right">
+		                                    <a class="glyphicon glyphicon-chevron-down"></a>
+		                                    <a class="glyphicon glyphicon-remove"></a>
+		                                </div>
+		                                <div class="clearfix"></div>
+		                            </div>
+		                            <div class="panel-body">
+		                                <div class="row">
+		                                    <div class="col-md-12">
+		                                        <div class="form-group">
+		                                            <input id="new-todo" type="text" class="form-control" placeholder="What needs to be done?">
+		                                            <section id='main'>
+		                                                <ul id='todo-list'></ul>
+		                                            </section>
+		                                        </div>
+		                                        <div class="form-group">
+		                                            <a id="todo-enter" class="btn btn-primary pull-right" style="background-color: #1ABC9C;border: none;">Submit</a>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="row">
+		                            <div class="col-md-12">
+		                                <div class="panel panel-default">
+		                                    <div class="panel-heading">
+		                                        <h3 class="panel-title pull-left">Server Status</h3>
+		                                        <div class="actions pull-right">
+		                                           	<a class="glyphicon glyphicon-chevron-down"></a>
+		                                    		<a class="glyphicon glyphicon-remove"></a>
+		                                        </div>
+		                                        <div class="clearfix"></div>
+		                                    </div>
+		                                    <div class="panel-body">
+		                                        <span class="sublabel">Memory Usage</span>
+		                                        <div class="progress progress-striped active">
+		                                            <div class="progress-bar progress-bar-info" style="width: 20%">20%</div>
+		                                        </div>
+		                                        <span class="sublabel">CPU Usage</span>
+		                                        <div class="progress progress-striped active">
+		                                            <div class="progress-bar progress-bar-default" style="width: 60%">60%</div>
+		                                        </div>
+		                                        <span class="sublabel">Disk Usage</span>
+		                                        <div class="progress progress-striped active">
+		                                            <div class="progress-bar progress-bar-primary" style="width: 80%">80%</div>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+							</div>
+							<div class="col-lg-4">
+								<div class="panel panel-default">
+		                            <div class="panel-body">
+		                                <h4>Browser Summary</h4>
+		                                <div  id="double-11" style="height: 300px;"></div>
+		                            </div>
+		                        </div>
+							</div>
+							<div class="col-lg-4">
+								 <div  id="zhu" style="height: 300px;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/echarts.js"></script>
+		<script src="js/china.js"></script>
+		<script src="js/BSM.js"></script>
+		<script type="text/javascript">
+		$('#accordion').collapse()
+		</script>
+	</body>
+</html>

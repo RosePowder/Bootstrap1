@@ -1,0 +1,254 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  padding-top: 100px;
+}
+
+header {
+  height: 100px;
+}
+header .row {
+  height: 100%;
+}
+header .logo {
+  height: 100%;
+  padding: 30px 0;
+  background-color: #1ABC9C;
+  text-align: center;
+}
+header .logo a span {
+  font-family: "palatino linotype";
+  font-size: 1.85em;
+  font-weight: 700;
+  color: #fff;
+}
+header .about {
+  background-color: #fff;
+  height: 100%;
+}
+header .about #menu {
+  padding: 12px;
+  margin: 27px 0;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: #eee;
+  color: #333;
+}
+header .about a#menu:hover {
+  background-color: #1ABC9C;
+  color: #fff;
+  animation: big 0.5s ease-in-out forwards;
+  -ms-animation: big 0.5s ease-in-out forwards;
+  -moz-animation: big 0.5s ease-in-out forwards;
+  -webkit-animation: big 0.5s ease-in-out forwards;
+}
+@keyframes big {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+@-ms-keyframes big {
+  from {
+    -ms-transform: scale(1);
+        transform: scale(1);
+  }
+  to {
+    -ms-transform: scale(1.2);
+        transform: scale(1.2);
+  }
+}
+@-webkit-keyframes big {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+header .about ul.pull-right {
+  margin-top: 27px;
+  line-height: 2em;
+}
+header .about ul.pull-right li {
+  margin: 0 10px;
+  list-style: none;
+  position: relative;
+}
+header .about ul.pull-right li img {
+  border-radius: 50%;
+  margin-top: -6px;
+}
+header .about ul.pull-right li.one a, header .about ul.pull-right li.four a {
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #eee;
+  color: #333;
+  font-size: 18px;
+}
+header .about ul.pull-right li.one .badge, header .about ul.pull-right li.four .badge {
+  background-color: #f00;
+  position: absolute;
+  left: -12px;
+}
+header .about ul.pull-right li.dropdown {
+  margin-top: 6px;
+}
+header .about ul.pull-right li.dropdown .dropdown-toggle {
+  font-family: 'palatino linotype';
+  color: #1ABC9C;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+}
+header .about ul.pull-right li.dropdown .dropdown-toggle .glyphicon {
+  font-size: 18px;
+}
+header .about ul.pull-right li.dropdown .dropdown-menu {
+  background-color: #f4f4f4;
+  top: 40px;
+}
+header .about ul.pull-right li.dropdown .dropdown-menu .badge {
+  background-color: #f00;
+}
+header .about ul.pull-right li.dropdown .dropdown-menu li a {
+  font-size: 0.85em;
+}
+header .about ul.pull-right li.dropdown .dropdown-menu li:hover a {
+  background-color: #1ABC9C;
+  color: #fff;
+}
+header .about ul.pull-right li.dropdown .dropdown-menu:before {
+  bottom: 100%;
+  left: 78%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(238, 238, 238, 0);
+  border-bottom-color: #e7e8ec;
+  border-width: 8px;
+  margin-left: -8px;
+  top: -17px;
+}
+
+.content aside {
+  position: fixed;
+  background-color: #293949;
+  padding: 0;
+}
+.content aside .nav.nav-tabs.panel-group {
+  width: 100%;
+  color: #fff;
+  border-bottom: none;
+}
+.content aside .nav.nav-tabs.panel-group li.panel {
+  float: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #2F4254;
+}
+.content aside .nav.nav-tabs.panel-group .panel-default > .panel-heading {
+  color: #fff;
+  background-color: transparent;
+}
+.content aside .nav.nav-tabs.panel-group .panel-default > .panel-heading a {
+  line-height: 22px;
+}
+.content aside .nav.nav-tabs.panel-group .panel-default > .panel-heading a span {
+  margin-right: 10px;
+  font-size: 14px;
+}
+.content aside .nav.nav-tabs.panel-group .panel-default > .panel-heading a .glyphicon-chevron-right {
+  font-size: 0.5em;
+  font-weight: 100;
+}
+.content aside .nav.nav-tabs.panel-group .panel-collapse > .panel-body {
+  background-color: #2F4254;
+  border-top: 1px solid #2F4254;
+}
+.content aside .nav.nav-tabs.panel-group .panel-collapse > .panel-body ul {
+  padding-left: 20px;
+}
+.content aside .nav.nav-tabs.panel-group .panel-collapse > .panel-body ul li {
+  list-style: none;
+}
+.content aside .nav.nav-tabs.panel-group .panel-collapse > .panel-body ul li a {
+  color: #ccc;
+  font-size: 12px;
+  padding: 0.8em 0;
+}
+.content aside .nav.nav-tabs.panel-group .panel-collapse > .panel-body ul li a:hover {
+  color: #fff;
+}
+.content .content-index {
+  background-color: #eee;
+}
+.content .content-index .content1 .row .card-wrapper {
+  height: 180px;
+}
+.content .content-index .content1 .row .card-wrapper .card-content {
+  width: 90%;
+  height: 80%;
+  margin: 8% 5%;
+  border-radius: 5px;
+  background-color: #1ABC9C;
+}
+.content .content-index .content1 .row .card-wrapper .card-content .col-lg-6 {
+  text-align: left;
+}
+.content .content-index .content1 .row .card-wrapper .card-content .card-txt {
+  color: #fff;
+  padding-left: 1.5em;
+  padding-right: 0;
+}
+.content .content-index .content1 .row .card-wrapper .card-content .card-txt h1 {
+  font-size: 3.8em;
+}
+.content .content-index .content1 .row .card-wrapper .card-content .card-txt p {
+  font-size: 0.8em;
+}
+.content .content-index .content1 .row .card-wrapper .card-content .card-icon {
+  font-size: 4.5em;
+  line-height: 160px;
+}
+.content .content-index .content2 .panel {
+  border-radius: 5px;
+}
+.content .content-index .content2 .panel .panel-heading h3 {
+  color: #888;
+}
+.content .content-index .content2 .panel .panel-heading .actions span {
+  color: #888;
+  margin-right: 0.5em;
+}
+.content .content-index .content2 .panel .panel-heading .actions span:hover {
+  color: 18px;
+}
+.content .content-index .content3 .panel {
+  border-radius: 5px;
+}
+.content .content-index .content3 .panel .panel-heading h3 {
+  color: #888;
+}
+.content .content-index .content3 .panel .panel-heading .actions span {
+  color: #888;
+  margin-right: 0.5em;
+}
+.content .content-index .content3 .panel .panel-heading .actions span:hover {
+  color: 18px;
+}
